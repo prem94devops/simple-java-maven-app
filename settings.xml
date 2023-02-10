@@ -5,22 +5,22 @@
 
   <servers>
     <server>
-      <id>mymaven-snapshots</id>
+      <id>FIRST_MAVEN-snapshot</id>
       <username>admin</username>
-      <password>Passw0rd</password>
+      <password>0280719930</password>
     </server>
     <server>
-      <id>mymaven-releases</id>
+      <id>FIRST_MAVEN-release</id>
       <username>admin</username>
-      <password>Passw0rd</password>
+      <password>0280719930</password>
     </server>
   </servers>
 
   <mirrors>
     <mirror>
-      <id>central</id>
-      <name>central</name>
-      <url>http://107.22.129.42:8081/repository/mymaven-central/</url>
+      <id>FIRST_MAVEN-central</id>
+      <name>FIRST_MAVEN-central</name>
+      <url>http://35.78.244.28:8081/repository/FIRST_MAVEN-central/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>

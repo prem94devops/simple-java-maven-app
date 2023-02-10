@@ -73,19 +73,19 @@
   </build>
  <repositories>
     <repository>
-      <id>mymaven-group</id>
-      <url>http://107.22.129.42:8081/repository/mymaven-group/</url>
+      <id>FIRST_MAVEN-group</id>
+      <url>http://35.78.244.28:8081/repository/FIRST_MAVEN-group/</url>
     </repository>
   </repositories>
 
     <distributionManagement>
     <snapshotRepository>
-      <id>mymaven-snapshots</id>
-      <url>http://107.22.129.42:8081/repository/mymaven-snapshots/</url>
+      <id>FIRST_MAVEN-snapshot</id>
+      <url>http://35.78.244.28:8081/repository/FIRST_MAVEN-snapshot/</url>
     </snapshotRepository>
     <repository>
-      <id>mymaven-releases</id>
-      <url>http://107.22.129.42:8081/repository/mymaven-releases/</url>
+      <id>FIRST_MAVEN-release</id>
+      <url>http://35.78.244.28:8081/repository/FIRST_MAVEN-release/</url>
     </repository>
   </distributionManagement>
 </project>
