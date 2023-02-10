@@ -18,8 +18,8 @@
 
   <mirrors>
     <mirror>
-      <id>FIRST_MAVEN-central</id>
-      <name>FIRST_MAVEN-central</name>
+      <id>central</id>
+      <name>central</name>
       <url>http://35.78.244.28:8081/repository/FIRST_MAVEN-central/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
