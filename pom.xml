@@ -74,18 +74,18 @@
  <repositories>
     <repository>
       <id>FIRST_MAVEN-group</id>
-      <url>http://35.78.244.28:8081/repository/FIRST_MAVEN-group/</url>
+      <url>http://18.180.156.185:8081/repository/FIRST_MAVEN-group/</url>
     </repository>
   </repositories>
 
     <distributionManagement>
     <snapshotRepository>
       <id>FIRST_MAVEN-snapshot</id>
-      <url>http://35.78.244.28:8081/repository/FIRST_MAVEN-snapshot/</url>
+      <url>http://18.180.156.185:8081/repository/FIRST_MAVEN-snapshot/</url>
     </snapshotRepository>
     <repository>
       <id>FIRST_MAVEN-release</id>
-      <url>http://35.78.244.28:8081/repository/FIRST_MAVEN-release/</url>
+      <url>http://18.180.156.185:8081/repository/FIRST_MAVEN-release/</url>
     </repository>
   </distributionManagement>
 </project>
