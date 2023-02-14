@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mycompany.app</groupId>
-  <artifactId>my-app</artifactId>
+  <artifactId>first_app</artifactId>
   <packaging>jar</packaging>
   <version>1.6.2-SNAPSHOT</version>
-  <name>my-app</name>
+  <name>first_app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -74,18 +74,18 @@
  <repositories>
     <repository>
       <id>FIRST_MAVEN-group</id>
-      <url>http://18.180.156.185:8081/repository/FIRST_MAVEN-group/</url>
+      <url>http://13.230.36.26:8081/repository/FIRST_MAVEN-group/</url>
     </repository>
   </repositories>
 
     <distributionManagement>
     <snapshotRepository>
       <id>FIRST_MAVEN-snapshot</id>
-      <url>http://18.180.156.185:8081/repository/FIRST_MAVEN-snapshot/</url>
+      <url>http://13.230.36.26:8081/repository/FIRST_MAVEN-snapshot/</url>
     </snapshotRepository>
     <repository>
       <id>FIRST_MAVEN-release</id>
-      <url>http://18.180.156.185:8081/repository/FIRST_MAVEN-release/</url>
+      <url>http://13.230.36.26:8081/repository/FIRST_MAVEN-release/</url>
     </repository>
   </distributionManagement>
 </project>

@@ -20,7 +20,7 @@
     <mirror>
       <id>central</id>
       <name>central</name>
-      <url>http://18.180.156.185:8081/repository/FIRST_MAVEN-central/</url>
+      <url>http://13.230.36.26:8081/repository/FIRST_MAVEN-central/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
