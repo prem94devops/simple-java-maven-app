@@ -13,6 +13,23 @@ pipeline {
             }
            
         }
+        stage("unit testing"){
+            steps{
+                
+                sh 'mvn test'
+            }
+            post{
+                success{
+                     echo "junit testing is success,publishing report"
+                     junit 'target/surefire-reports/*.xml'
+                
+                }
+                failure{
+                    echo "junit testing is failed"
+
+                }
+            }
+        }
         stage('sonar'){
             steps{
                 script{
