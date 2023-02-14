@@ -5,9 +5,13 @@ pipeline {
     }
     stages {
         stage('build'){
-            script{
-                sh 'mvn clean install'
+            steps{
+                 script{
+                    echo "maven code build"
+                    sh 'mvn clean install'
+                }
             }
+           
         }
     }
 }
